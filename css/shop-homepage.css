@@ -1,0 +1,128 @@
+/*!
+ * Start Bootstrap - Shop Homepage (http://startbootstrap.com/template-overviews/shop-homepage)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-shop-homepage/blob/master/LICENSE)
+ */
+
+body {
+    padding-top: 0px;
+    
+}
+
+@media (min-width: 992px) {
+    body {
+        padding-top: 0px;
+
+    }
+}
+
+    
+    .carousel-item.active,
+    .carousel-item-next,
+    .carousel-item-prev {
+        display: block;
+        border: 0px solid;
+    }
+    .carousel-indicators >li{
+      background-color: grey;
+
+    }
+ .navbar-default {
+    background-color: #FFBD7E;
+    border-color: #E7E7E7;
+
+}
+.navbar-default .navbar-nav > li > a {
+    color: black;
+}
+.navbar-collapse .collapse > li > a:hover{
+    background-color:#FCC;
+}
+
+.underline{
+          background: #FFC24D;
+    height: 5px;
+    padding: 0;
+    margin: 0;
+    width: 80px;
+    margin: 0 auto 50px auto;
+    border: none;
+   
+}
+.heading1{
+      padding-bottom: 10px;
+
+}
+.moving{
+      background-color: #F9DDC2;
+}
+.footer{
+    
+  
+  margin-bottom: 0px;
+  background: #FFBD7E; padding: 20px 0 40px 0;
+}
+.footers{
+         font-size: 11px;
+    margin-top: -1px;
+    z-index: 1;
+        border-top: none;
+            padding-top: 15px;
+    padding-bottom: 15px; 
+}
+.new-div{
+ padding-bottom: 50px;
+ padding-top: 80px;
+     
+}
+.btn-primary{
+      background-color: #F9DDC2;
+      border-color: #F9DDC2;
+      color: black;
+}
+.btn-primary:hover{
+      background-color: #FFBD7E;
+      border-color: #FFBD7E;
+      color: black;
+}
+.navbar-toggler{
+      background-color:#F9DDC2 ;
+      border-color: #F9DDC2;
+}
+.navbar-toggler-icon{
+      color: white;
+}
+.theme-hero{
+	background:  #FFBD7E;
+}
+.main-title{
+	    font-weight: 600 !important;
+    letter-spacing: -2px !important;
+    visibility: visible;
+    animation-duration: 0.2s;
+    animation-name: pulse;
+}
+.list{
+	list-style-type: none;
+}
+.navbar-search{
+  margin-top: 5px;
+}
+.main-title{
+  margin-top: 50px;
+  padding-top: 50px;
+      font-weight: 600 !important;
+    letter-spacing: -2px !important;
+    visibility: visible;
+    animation-duration: 0.2s;
+    animation-name: pulse;
+
+}
+.partner
+{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.color:hover{
+  background-color: #F9AB61;
+}
