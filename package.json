@@ -2,9 +2,11 @@
   "name": "reactsujit",
   "version": "1.0.0",
   "description": "basics to react",
-  "main": "gulpfile.js",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start":"npm run build",
+    "build":"webpack -d && cp src/index.html dist/index.html && webpack-dev-server --content-base src/ --inline --hot",
+    "build:prod": "webpack -p && cp src/index.html dist/index.html"
   },
   "repository": {
     "type": "git",
